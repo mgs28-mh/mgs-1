@@ -20,9 +20,9 @@ export default function Footer() {
               Solusi energi terbarukan untuk masa depan yang lebih bersih dan berkelanjutan.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-green-400">
+              <Link href="#" className="text-gray-400 hover:text-green-400">
                 <FaFacebook className="h-5 w-5" />
-              </a>
+              </Link>
               <a href="#" className="text-gray-400 hover:text-green-400">
                 <FaTwitter className="h-5 w-5" />
               </a>
@@ -109,9 +109,6 @@ export default function Footer() {
               </Link>
               <Link href="/terms-of-service" className="text-gray-400 hover:text-green-400 text-sm">
                 Syarat & Ketentuan
-              </Link>
-              <Link href="/sitemap" className="text-gray-400 hover:text-green-400 text-sm">
-                Sitemap
               </Link>
             </div>
           </div>
